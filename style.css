@@ -5,6 +5,7 @@ body{
 }
 
 
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -15,6 +16,18 @@ h1{
 nav{
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+.h3-1{
+    margin: 5px 10px; 
+    padding: 10px;
+    background-color: rgb(255, 81, 0); 
+    border-radius: 15px; 
+    box-shadow: 0px 3px 5px black;"
+}
+
+main{
+  min-height: 450px;
 }
 
 
@@ -50,4 +63,42 @@ footer{
     
 }
 
+.logo {
+    height: 5rem; 
+    padding: 5px 20px;
+}
+
+.button {
+    background-color: rgb(221, 44, 13);
+    border-radius: 15px;
+    color:black
+}
+
+.button:hover {
+    color: antiquewhite;
+}
+
+.button-2{
+    color: rgb(221, 44, 13);
+}
+
+.button-2:hover {
+    color: antiquewhite;
+}
+
+.bi-instagram:hover {
+    color: rgb(221, 44, 13);
+}
+
+.bi-facebook:hover {
+    color: rgb(44, 44, 192);
+}
+
+.bi-whatsapp:hover{
+    color: greenyellow;
+}
+
+.texto-1:hover{
+    color: rgb(221, 44, 13);
+}
 
