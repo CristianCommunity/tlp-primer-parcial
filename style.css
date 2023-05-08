@@ -19,12 +19,14 @@ nav{
 }
 
 .h3-1{
-    margin: 5px 10px; 
+    margin: 5px 175px; 
     padding: 10px;
     background-color: rgb(255, 81, 0); 
     border-radius: 15px; 
-    box-shadow: 0px 3px 5px black;"
+    box-shadow: 0px 3px 5px black;
 }
+
+
 
 main{
   min-height: 450px;
@@ -35,7 +37,7 @@ main{
     width: 75vw;
     max-width: 1000px;
     min-width: 360px;
-    margin: auto;   
+    margin: 0;   
 }
 
 .conteiner img{
@@ -55,13 +57,19 @@ footer{
 
 #mainabout{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     width: 75vw;
     margin: auto;
     padding: 20px;
     gap: 20px;
     
 }
+
+#im1 {
+    grid-row: 1 / -1;
+    grid-column: 2 / -1;
+}
+
 
 .logo {
     height: 5rem; 
@@ -102,3 +110,25 @@ footer{
     color: rgb(221, 44, 13);
 }
 
+.boton-2 {
+    background-color: rgb(221, 44, 13);
+    border-radius: 15px;
+    color:black;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+
+}
+
+.boton-2:hover{
+    color: white;
+    background-color: rgb(221, 44, 13);
+}
+
+.card-1{
+    padding: 2rem 2rem; 
+    gap: 1rem;
+}
+
+.w-25{
+    max-width: 400px;
+}
