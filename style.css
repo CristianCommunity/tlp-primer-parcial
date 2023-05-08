@@ -4,11 +4,7 @@ body{
     flex-direction: column;
 }
 
-nav h1{
-    display: flex;
-    align-items: center;
-    
-}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -41,6 +37,17 @@ footer{
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 
+}
+
+
+#mainabout{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 75vw;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+    
 }
 
 
