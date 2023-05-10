@@ -1,3 +1,4 @@
+/*Estilos al body*/
 body{
     background-color: rgb(230, 224, 224);
     display: flex;
@@ -19,7 +20,7 @@ nav{
     box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 }
 
-
+/*Asigno un tamaño al main*/
 main{
   min-height: 450px;
 }
@@ -38,6 +39,7 @@ main{
     padding: 0px 5px;
 }
 
+/*Aplicamos la clase conteiner a la imagen del index*/
 .conteiner{
     width: 75vw;
     max-width: 1000px;
@@ -51,7 +53,7 @@ main{
     box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 }
 
-
+/*Aplico flex grid al main de about*/
 #mainabout{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,12 +69,13 @@ main{
     grid-column: 2 / -1;
 }
 
-
+/*Tamaño del logo*/
 .logo {
     height: 5rem; 
     padding: 5px 20px;
 }
 
+/*Estilo a los botones del navbar*/
 .button {
     background-color: rgb(221, 44, 13);
     border-radius: 15px;
@@ -126,6 +129,7 @@ main{
     background-color: rgb(221, 44, 13);
 }
 
+/*Estilos de las tarjetas*/
 .card-1{
     padding: 2rem 2rem; 
     gap: 1rem;
@@ -136,6 +140,7 @@ main{
     min-width: 300px;
 }
 
+/*Estilos del Footer*/
 footer{
     color: rgb(230, 224, 224);
     background-color: black;
