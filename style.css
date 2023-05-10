@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-bottom: 9em;
+    padding-bottom: 120px;
 }
 
 
@@ -11,13 +11,19 @@ body{
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(253, 251, 249);  
-    padding: 2rem;
+    padding: 30px;
 }
 
 nav{
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 }
+
+
+main{
+  min-height: 450px;
+}
+
 
 .h3-1{
     padding: 10px;
@@ -27,11 +33,10 @@ nav{
 }
 
 
-
-main{
-  min-height: 450px;
+.sec-1{
+    width: 100%;
+    padding: 0px 5px;
 }
-
 
 .conteiner{
     width: 75vw;
@@ -87,15 +92,15 @@ main{
 }
 
 .bi-instagram:hover {
-    color: rgb(221, 44, 13);
+    color: rgb(248, 96, 69);
 }
 
 .bi-facebook:hover {
-    color: rgb(44, 44, 192);
+    color: rgb(98, 98, 228);
 }
 
 .bi-whatsapp:hover{
-    color: greenyellow;
+    color: rgb(107, 247, 118);
 }
 
 .tx-1{
